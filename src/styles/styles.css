@@ -1,0 +1,227 @@
+.resume{
+	width: 826px;
+	margin-left: 49px;
+	margin-top: 75px;
+	margin-right: 49px;		
+	margin-bottom: 0;
+	color: rgb(65, 65, 66);
+	font-family: Century Gothic;
+}
+
+.resume__header{
+	display: inline-block;
+	width: 800px;
+	
+}
+
+.resume__left-block{
+	display: inline-block;
+	width: 276px;
+	vertical-align: top;
+	
+}
+
+.resume__right-block{
+	display: inline-block;
+	width: 498px;
+	vertical-align: top;
+}
+
+.header__name{
+	font-size: 22pt;
+	color: #404042;
+	margin-bottom: 0px;
+}
+
+.header__vocation{
+	font-size: 12pt;
+	color: #404042;
+	margin-top: 0px;
+	margin-bottom: 28px;
+}
+
+.header__address{
+	font-size: 7.5pt;
+	color: rgb(156, 158, 161);
+	margin-top: : 0px;
+	margin-bottom: 8px;
+}
+
+.header__contact{
+	font-size: 7.5pt;
+	color: rgb(156, 158, 161);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.resume__solid{
+	border-width: 1px; 
+	border-bottom-style: solid;
+	color: rgb(156, 158, 161);
+	margin-bottom: 23px;
+	margin-top: 43px
+
+}
+
+
+.left-block__photo{
+	width: 257px;
+    height: 213px;
+    background-color: rgb(219, 221, 221);
+}
+
+
+.resume__section-title{
+	font-size: 10pt;
+	height: 17px;
+	width: 110px;
+	padding: 8px;
+	background-color:  rgb(241, 201, 23);
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.resume__section-title_about-me{
+    margin-top: 0;
+
+}
+
+.right-block_years{
+	display: inline-block;
+	font-size: 8.5pt;
+	width: 127px;
+	vertical-align: top;
+	color: #7f8285;
+	font-weight: bold;
+}
+
+.right-block_education{
+	display: inline-block;
+	font-size: 8.5pt;
+	width: 366px;
+	vertical-align: top;
+}
+
+.right-block_education_education-degree{
+	font-weight: bold;
+}
+
+.resume_all-text{
+	width: 530px;	
+    text-align: justify;
+    font-size: 8pt;
+}
+
+.right-block__reference-name{
+	font-size: 9.49pt;
+	font-family: Myriad Pro;
+	font-weight: bold;
+}
+
+.reference-position{
+	font-size: 8.5pt;
+}
+
+.reference-telephone{
+	font-size: 7.5pt;
+	color: rgb(133, 129, 131);
+}
+
+.resume__section-title_skills{
+	width: 137px;
+}
+
+.left-block__skills{
+	font-size: 7.5pt;
+}
+
+.left-block__software{
+	font-size: 7.5pt;
+}
+
+
+.left-block__progress-bar{
+	width: 200px;	
+	height: 9px; 
+    outline: 1px solid rgb(180, 190, 192); 
+    margin-bottom: 15px;
+    margin-top: 8px;
+    
+}
+
+.left-block__progress-bar_communication{	
+	background-color: rgb(180, 190, 192);
+	width: 90%;
+	height: 100%;
+	display: block;
+}
+
+.left-block__progress-bar_creativity{
+	background-color: rgb(180, 190, 192);
+	width: 70%;
+	height: 100%;
+	display: block;
+}
+
+.left-block__progress-bar_teamwork{
+	background-color: rgb(180, 190, 192);
+	width: 80%;
+	height: 100%;
+	display: block;
+}
+
+
+.left-block__progress-bar_organization{
+	background-color: rgb(180, 190, 192);
+	width: 90%;
+	height: 100%;
+	display: block;
+}
+
+
+.left-block__progress-bar_leadership{
+	background-color: rgb(180, 190, 192);
+	width: 85%;
+	height: 100%;
+	display: block;
+}
+
+
+.left-block__progress-bar_teamplayer{
+	background-color: rgb(180, 190, 192);
+	width: 80%;
+	height: 100%;
+	display: block;
+}
+
+.left-block__progress-bar_mo{
+	background-color: rgb(180, 190, 192);
+	width: 85%;
+	height: 100%;
+	display: block;
+}
+
+.left-block__progress-bar_c{
+	background-color: rgb(180, 190, 192);
+	width: 50%;
+	height: 100%;
+	display: block;
+}
+
+
+.left-block__progress-bar_sql{
+	background-color: rgb(180, 190, 192);
+	width: 60%;
+	height: 100%;
+	display: block;
+}
+
+.resume__straight{
+	border: 16px solid;
+	border-color: rgb(241, 202, 25);
+	width: 100%;
+	margin-top: 43px;
+}
