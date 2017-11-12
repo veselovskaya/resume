@@ -1,87 +1,102 @@
-.resume{
-	width: 826px;
-	margin-left: 49px;
-	margin-top: 75px;
-	margin-right: 49px;		
-	margin-bottom: 0;
-	color: rgb(65, 65, 66);
-	font-family: Century Gothic;
+.resume{	
+	font-family: CenturyGothic, sans-serif;
+	width: 2245px;
+	margin: auto;
+	color: #1a1a1a;	
+	line-height: 56px;
+  	letter-spacing: 0.025em;
+  	font-size: 35px;
 }
 
 .resume__header{
 	display: inline-block;
-	width: 800px;
+	width: 100%;
+	padding-top: 190px;
 	
 }
 
 .resume__left-block{
 	display: inline-block;
-	width: 276px;
+	width: 781px;
 	vertical-align: top;
 	
 }
 
 .resume__right-block{
 	display: inline-block;
-	width: 498px;
+	width: 1355px;
 	vertical-align: top;
+	margin-left: 95px;
 }
 
 .header__name{
-	font-size: 22pt;
-	color: #404042;
+	font-size: 92px;
 	margin-bottom: 0px;
+	line-height: 1em;
+	text-transform: uppercase;
 }
 
 .header__vocation{
-	font-size: 12pt;
-	color: #404042;
+	font-size: 50px;
 	margin-top: 0px;
-	margin-bottom: 28px;
+	margin-bottom: 85px;
 }
 
 .header__address{
-	font-size: 7.5pt;
+	font-size: 31px;
 	color: rgb(156, 158, 161);
 	margin-top: : 0px;
-	margin-bottom: 8px;
+	border-right: 1px solid #8c8c8c;
+	padding-right: 20px;
 }
 
-.header__contact{
-	font-size: 7.5pt;
+.header__mail{
+	font-size: 31px;
 	color: rgb(156, 158, 161);
-	margin-top: 0px;
+	/*margin-top: 0px;
+	margin-bottom: 0px;*/
+	border-right: 1px solid #8c8c8c;
+	padding-right: 20px;
+
+}
+
+.header__telephone{
+	font-size: 31px;
+	color: rgb(156, 158, 161);
+	/*margin-top: 0px;
 	margin-bottom: 0px;
+	border-right: 1px solid #8c8c8c;*/
+
 }
 
 .resume__solid{
+	width: 100%
 	border-width: 1px; 
 	border-bottom-style: solid;
-	color: rgb(156, 158, 161);
-	margin-bottom: 23px;
-	margin-top: 43px
+	color: #e4e5e6;
+	margin-bottom: 70px;
+	margin-top: 128px
 
 }
 
-/*
+
 .left-block__photo{
-	width: 257px;
-    height: 213px;
-    background-color: rgb(219, 221, 221);
+	width: 700px;
+    /*height: 638px;
+    margin-bottom: 60px;*/
 }
-*/
+
 
 .resume__section-title{
-	font-size: 10pt;
-	height: 17px;
-	width: 110px;
-	padding: 8px;
+	display: inline-block;
+	font-size: 42px;
+	box-sizing: border-box;
+	padding: 12px 65px;
 	background-color:  rgb(241, 201, 23);
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-weight: 600;
+    /*font-weight: bold;*/
 }
 
 .resume__section-title_about-me{
@@ -91,43 +106,43 @@
 
 .right-block_years{
 	display: inline-block;
-	font-size: 8.5pt;
-	width: 127px;
+	font-size: 35px;
+	width: 400px;
 	vertical-align: top;
 	color: #7f8285;
-	font-weight: bold;
+	font-weight: 600;
+	margin-right: 20px;
 }
 
-.right-block_education{
+.right-block__education{
 	display: inline-block;
-	font-size: 8.5pt;
-	width: 366px;
+	font-size: 35px;
+	width: 920px;
 	vertical-align: top;
 }
 
-.right-block_education_education-degree{
-	font-weight: bold;
+.right-block__education_education-degree{
+	font-weight: 600;
 }
 
 .resume_all-text{
-	width: 530px;	
+	width: 100%;	
     text-align: justify;
-    font-size: 8pt;
+    font-size: 33px;
 }
 
 .right-block__reference-name{
-	font-size: 9.49pt;
-	font-family: Myriad Pro;
-	font-weight: bold;
+	font-size: 40px;
+	font-weight: 600;
 }
 
 .reference-position{
-	font-size: 8.5pt;
+	font-size: 35px;
 }
 
 .reference-telephone{
-	font-size: 7.5pt;
-	color: rgb(133, 129, 131);
+	font-size: 31px;
+	color: rgb(156, 158, 161);
 }
 
 .resume__section-title_skills{
@@ -135,39 +150,42 @@
 }
 
 .left-block__skills{
-	font-size: 7.5pt;
+	font-size: 32px;
 }
 
 .left-block__software{
-	font-size: 7.5pt;
+	font-size: 32px;
 }
 
 
 .left-block__progress-bar{
-	width: 200px;	
-	height: 9px; 
-    outline: 1px solid rgb(180, 190, 192); 
-    margin-bottom: 15px;
-    margin-top: 8px;
-    
+	width: 622px;	
+	height: 27px; 
+    outline: 1px solid #bcbdc0;; 
+    margin-bottom: 49px;
+    margin-top: 23px;   
+}
+
+.left-block__progress-bar:last-child{
+	margin-bottom: 130px;
 }
 
 .left-block__progress-bar_communication{	
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 90%;
 	height: 100%;
 	display: block;
 }
 
 .left-block__progress-bar_creativity{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 70%;
 	height: 100%;
 	display: block;
 }
 
 .left-block__progress-bar_teamwork{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 80%;
 	height: 100%;
 	display: block;
@@ -175,7 +193,7 @@
 
 
 .left-block__progress-bar_organization{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 90%;
 	height: 100%;
 	display: block;
@@ -183,7 +201,7 @@
 
 
 .left-block__progress-bar_leadership{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 85%;
 	height: 100%;
 	display: block;
@@ -191,21 +209,21 @@
 
 
 .left-block__progress-bar_teamplayer{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 80%;
 	height: 100%;
 	display: block;
 }
 
 .left-block__progress-bar_mo{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 85%;
 	height: 100%;
 	display: block;
 }
 
 .left-block__progress-bar_c{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 50%;
 	height: 100%;
 	display: block;
@@ -213,15 +231,16 @@
 
 
 .left-block__progress-bar_sql{
-	background-color: rgb(180, 190, 192);
+	background-color: #bcbdc0;;
 	width: 60%;
 	height: 100%;
 	display: block;
 }
 
-.resume__straight{
-	border: 16px solid;
-	border-color: rgb(241, 202, 25);
-	width: 100%;
-	margin-top: 43px;
+.resume__footer{
+	width: 2585px;
+	height: 70px;
+	background: rgb(241, 202, 25);
+	width: 2650;
+	margin: auto;
 }
